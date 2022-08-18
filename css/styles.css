@@ -28,6 +28,10 @@ ul {
 .contacts .link.current {
   color: var(--accent-color);
 }
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
 .section-title {
   color: var(--title-text-color);
   font-style: normal;
