@@ -1,0 +1,44 @@
+:root {
+  /*fonts*/
+  --main-font: roboto;
+  --secondary-font: raleway;
+  /* colors */
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+/* main colour #212121 */
+body {
+  color: var(--primary-text-color);
+  background-color: #f5f5f5;
+}
+ul {
+  list-style: none;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+.contacts .link:hover,
+.contacts .link:focus,
+.contacts .link.current {
+  color: var(--accent-color);
+}
+.section-title {
+  color: var(--title-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+}
+.section-text {
+  color: var(--primary-text-color);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
